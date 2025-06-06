@@ -19,5 +19,12 @@ int main() {
     }
     cout << endl;
 
+    // Remove the last element from the vector
+    numbers.pop_back();
+    cout << "After removing the last element: ";
+    for (int num : numbers) {
+        cout << num << " ";
+    }
+
     return 0;
 }   
