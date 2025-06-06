@@ -26,5 +26,15 @@ int main() {
         cout << num << " ";
     }
 
+    cout << endl;
+    // Check the size of the vector
+    cout << "Size of the vector: " << numbers.size() << endl;
+    // Check if the vector is empty
+    if (numbers.empty()) {
+        cout << "The vector is empty." << endl;
+    } else {
+        cout << "The vector is not empty." << endl;
+    }
+
     return 0;
 }   
